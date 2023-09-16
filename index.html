@@ -1,0 +1,420 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!--Setting a fitting title for the website-->
+    <title>BMW</title>
+</head>
+<body>
+    <!--Linking the css file-->
+    <link rel="stylesheet" href="style.css">
+
+    <!--The navigation bar-->
+    <div class="navigation">
+        <!--3 link tags for each of the 3 pages-->
+        <!--Each link contains an image from the image folder-->
+        <a href="#logo1" class="link">
+            HOME
+        </a>
+        <a href="#logo2" class="link">
+            CARS
+        </a>
+        <a href="#logo3" class="link">
+            CONTACT
+        </a>
+    </div>
+
+    <!--A logo to fill the gaps between the pages-->
+    <br><br>
+    <img class="logo" id="logo1" src="images/logo.png" alt="BMWlogo">
+    
+    <!--The pages-->
+    <!--Page1: Home-->
+    <div class="page" id="mainpage">
+        <h1>Home</h1>
+        <!--Introduction about my Site-->
+        <div class="introduction">
+            <h2>Introduction</h2>
+            <p>
+                Welcome to my site featuring the BMW company's creations. <br>
+                This site will guide you through all you'd want to know before buying anything. <br>
+                You are free to leave an anonymous review of the site layout and UI.
+            </p>
+            <div class="input">
+                <input type="text" class="text" placeholder="Anonymous review">
+                <button>Submit review</button>  
+            </div>
+        </div>
+        <!--The achievements of BMW-->
+        <div class="achievements">
+            <h2>Top Achievements</h2>
+            <!--Unordered list-->
+            <ul id="achievements">
+                <li>Top sustainable car company, and keeps taking care of the environment</li>
+                <li>12 BMW Group entrants recognised as finalists in Great Women: Rising Stars - Autocar 2023</li>
+                <li>BMW UK wins in Five category in Fleet News Awards 2020</li>
+                <li>UK retail talent was recognised by MINI</li>
+                <li>Title of Fleet car manufacturer of the year in 2021 at Green Fleet Awards</li>
+            </ul>
+        </div>
+        <!--The biography of BMW company-->
+        <div class="biography">
+            <h2>Biography</h2>
+            <p id="parag">
+                Bayerische Flugzeug-Werke made its debut in 1916, building aircraft engines.
+                The name was later changed to "Bayerische Motoren Werke" in July 1917, shortened to "BMW".
+                They started producing motorcycles in 1920, and dived in car business in 1928.
+                During the second world war, the first jet airplane engines were build by BMW.
+                After the war, BMW had difficulties and by 1959 almost went bankrupt because it couldn't compete in small-car market.
+                In the same year, however, German entrepreneur Herbert Quandt got interested and BMW introduced the 700 series.
+                After that BMW introduced the 1500 model and new series of motorcycles.
+                BMW became very well established as premium automobile brand by 2000.
+            </p>
+            <!--The video for BMW-->
+            <div class="video">
+                <label>Video Aesthetic</label>
+                <video width=500 controls="controls">
+                    <source src="videos/vid.mp4" type="video/mp4">
+                </video>
+            </div>
+        </div>
+    </div>
+
+    <!--Logo-->
+    <img class="logo" id="logo2" src="images/logo.png" alt="BMWlogo">
+    
+    <!--Page2: Cars-->
+    <div class="page" id="cars">
+        <h1>Cars</h1>
+        <!--Section 1: Newest cars-->
+        <div class="showcase">
+            <h2>Newest cars</h2>
+            <!--A div for all cards-->
+            <div class="cards">
+                <!--The "cards" are just empty divs styled with images-->
+                <div class="carcard" id="newA"></div>
+                <div class="carcard" id="newB"></div>
+                <div class="carcard" id="newC"></div>
+            </div>
+            <!--A div for all the details-->
+            <div class="details">
+                <!--For each "card", there is a detail Text div-->
+                <div class="detailsT">
+                    2023 BMW iX <br>
+                    Doors: 4 <br>
+                    Transmission: Automatic <br>
+                    Starting at: $85.095k
+                </div>
+                <div class="detailsT">
+                    2023 BMW 7-Series <br>
+                    Doors: 2 <br>
+                    Transmission: Automatic <br>
+                    Starting at: $96.695k
+                </div>
+                <div class="detailsT">
+                    2023 BMW I7<br>
+                    Doors: 4 <br>
+                    Transmission: Automatic <br>
+                    Starting at: $120.295k
+                </div>
+            </div>
+        </div>
+        <!--Section 2: Most expensive cars-->
+        <div class="showcase">
+            <h2>Most expensive cars</h2>
+            <!--A div for all cards-->
+            <div class="cards">
+                <!--Also empty div for each card-->
+                <div class="carcard" id="expA"></div>
+                <div class="carcard" id="expB"></div>
+                <div class="carcard" id="expC"></div>
+                <div class="carcard" id="expD"></div>
+                <div class="carcard" id="expE"></div>
+            </div>
+            <!--A div for all the details-->
+            <div class="details">
+                <!--For each "card", there is a detail Text div-->
+                <div class="detailsT">
+                    BMW Nazca M12 <br>
+                    year: 1991 <br>
+                    Doors: 2 <br>
+                    Engine size: 5L <br>
+                    Transmission: Manual <br>
+                    Price: $3M
+                </div>
+                <div class="detailsT">
+                    BMW 507 <br>
+                    year: 1956 <br>
+                    Doors: 2 <br>
+                    Engine size: 3.2L <br>
+                    Transmission: Manual <br>
+                    Price: $3M
+                </div>
+                <div class="detailsT">
+                    BMW 328 <br>
+                    year: 1936 <br>
+                    Doors: 2 <br>
+                    Transmission: Manual <br>
+                    Price: $1.4M
+                </div>
+                <div class="detailsT">
+                    BMW i8 Concours d'Elegance Edition <br>
+                    year: 2014 <br>
+                    Doors: 2 <br>
+                    Transmission: Manual <br>
+                    Price: $825k
+                </div>
+                <div class="detailsT">
+                    BMW 3.0 CSL<br>
+                    year: 2023 <br>
+                    Doors: 5 <br>
+                    Transmission: Manual <br>
+                    Price: $750k
+                </div>
+            </div>
+        </div>
+        <!--Section 3: Best-Selling cars-->
+        <div class="showcase">
+            <h2>Best-selling cars</h2>
+            <!--A div for all cards-->
+            <div class="cards">
+                <!--Also empty div for each card-->
+                <div class="carcard" id="bestA"></div>
+                <div class="carcard" id="bestB"></div>
+                <div class="carcard" id="bestC"></div>
+                <div class="carcard" id="bestD"></div>
+            </div>
+            <!--A div for all the details-->
+            <div class="details">
+                <!--For each "card", there is a detail Text div-->
+                <div class="detailsT">
+                    BMW X5 <br>
+                    Doors: 4 <br>
+                    Transmission: Automatic/Manual <br>
+                </div>
+                <div class="detailsT">
+                    BMW 3 series <br>
+                    Doors: 4 <br>
+                    Transmission: Automatic <br>
+                </div>
+                <div class="detailsT">
+                    BMW 5 series <br>
+                    Doors: 4 <br>
+                    Transmission: Automatic <br>
+                </div>
+                <div class="detailsT">
+                    BMW 7 series <br>
+                    Doors: 4 <br>
+                    Transmission: Automatic <br>
+                </div>
+            </div>
+        </div>
+        <!--Section 4: A list of the models in section 5-->
+        <div class="list">
+            <h2>List of the BMW series</h2>
+            <!--Ordered list for the five cars-->
+            <ol>
+                <li>E26</li>
+                <li>F82</li>
+                <li>E30</li>
+                <li>G82</li>
+                <li>E60</li>
+            </ol>
+        </div>
+        <!--Section 5: Table of BMW series-->
+        <div class="table">
+            <!--Table-->
+            <h2>Table of the BMW series</h2>
+            <table>
+                <!--Each row is in a tr (table row) tag-->
+                <!--First row only has th (table headers)-->
+                <!--All other rows have 1 th and the rest is td (table data)-->
+                <tr>
+                    <th></th>
+                    <th>m1</th>
+                    <th>m2</th>
+                    <th>m3</th>
+                    <th>m4</th>
+                    <th>m5</th>
+                </tr>
+                <tr>
+                    <th>release date</th>
+                    <td>1978</td>
+                    <td>2016</td>
+                    <td>1986</td>
+                    <td>2014</td>
+                    <td>1984</td>
+                </tr>
+                <tr>
+                    <th>latest model date</th>
+                    <td>1981</td>
+                    <td>2023</td>
+                    <td>2023</td>
+                    <td>2023</td>
+                    <td>2023</td>
+                </tr>
+                <tr>
+                    <th>average price</th>
+                    <td>$530k</td>
+                    <td>$107k</td>
+                    <td>$80k</td>
+                    <td>$90k</td>
+                    <td>$100k</td>
+                </tr>
+                <tr>
+                    <th>horsepower</th>
+                    <td>277</td>
+                    <td>431</td>
+                    <td>296</td>
+                    <td>480</td>
+                    <td>500</td>
+                </tr>
+            </table>
+        </div>
+    </div>
+
+    <!--Logo-->
+    <img class="logo" id="logo3" src="images/logo.png" alt="BMWlogo">
+
+    <!--Page 3: Contact-->
+    <div class="page" id="contact">
+        <h1>Contact us</h1>
+        <!--Special deal-->
+        <div class="deal">
+            <h2>Special deal</h2>
+            <p>
+                We offer a special deal to our valuable and loyal customers. <br>
+                Additional purchases under the same code get discounts up to 30%!
+                Code is shared between relatives and friends.
+                You can type their code and get a discount.
+                The details will be given once the form at the end of the site is filled. <br>
+                For new customers, you will receive a code upon filling the form at the end of the site.<p>
+            </p>
+            <!--Input the code to get the discount-->
+            <div class="discountInput">
+                <input type="password" class="text">
+                <button>Submit code</button>
+            </div>
+        </div>
+        <!--List of cars available for sale-->
+        <div class="available">
+            <h2>Cars currently available for sale</h2>
+            <!--Unordered list-->
+            <ul>
+                <li>3.0 CSL</li>
+                <li>3 series</li>
+                <li>5 series</li>
+                <li>7 series</li>
+                <li>I7</li>
+                <li>iX</li>
+                <li>X5</li>
+            </ul>
+            <!--A doownload button for the images-->
+            <div>
+               <a download id="download" href="images/carbg3.jpg">
+                <button>Download picture</button>
+               </a> 
+            </div>
+        </div>
+        <!--Contact form-->
+        <div class="form">
+            <!--Divided into 2 divs to look nice-->
+            <!--First div-->
+            <div>
+                <h2>Form</h2>
+                <!--Each input is in a div-->
+                <!--First name input-->
+                <div class="input">
+                    <label>First name</label>
+                    <input type="text" class="text">
+                </div>
+                <!--Last name input-->
+                <div class="input">
+                    <label>Last name</label>
+                    <input type="text" class="text">
+                </div>
+                <!--Phone number input-->
+                <div class="input">
+                    <label>Phone number</label>
+                    <input type="tel" class="text">
+                </div>
+                <!--Email input-->
+                <div class="input">
+                    <label>Email</label>
+                    <input type="email" class="text">
+                </div>
+                <!--Location input-->
+                <div class="input">
+                    <label>Location</label>
+                    <input type="text" class="text">
+                </div>
+            </div>
+            <!--Second div for the radio options-->
+            <div class="radios">
+                <!--Each input is in a div-->
+                <!--RadioButtons for 4 car colors of my choice-->
+                <div class="radioInput">
+                    <label class="title">Car color</label>
+                    <!--Each color in separate div-->
+                    <div class="radioB">
+                        <input type="radio" name="color" id="white">
+                        <label for="white">White</label>
+                    </div>
+                    <div class="radioB">
+                        <input type="radio" name="color" id="black">
+                        <label for="black">Black</label>
+                    </div>
+                    <div class="radioB">
+                        <input type="radio" name="color" id="grey">
+                        <label for="grey">Grey</label>
+                    </div>
+                    <div class="radioB">
+                        <input type="radio" name="color" id="blue">
+                        <label for="blue">Blue</label>
+                    </div>
+                </div>
+                <!--RadioButtons for payment method-->
+                <div class="radioInput">
+                    <label class="title">Payment method</label>
+                    <!--Each payment method in separate div-->
+                    <div class="radioB">
+                        <input type="radio" name="payment" id="cash">
+                        <label for="cash">Cash</label>
+                    </div>
+                    <div class="radioB">
+                        <input type="radio" name="payment" id="debit">
+                        <label for="debit">Debit</label>
+                    </div>
+                </div>
+                <!--Submit button-->
+                <div>
+                    <button>Submit</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--The footer-->
+    <footer>
+        <!--Div for the links to be in 1 row-->
+        <div id="links">
+            <!--3 links for the external sites-->
+            <!--Each link contains an image from the image folder-->
+            <a class="link" target="_blank" href="https://www.bmw.com/en/index.html">
+                <img class="icon" src="images/web.png" alt="web">
+            </a>
+            <a class="link" target="_blank" href="https://www.instagram.com/bmw/">
+               <img class="icon" src="images/instaramIcon.png" alt="instagram">
+            </a>
+            <a class="link" target="_blank" href="https://www.linkedin.com/company/bmw-group/">
+                <img class="icon" src="images/linkedIn.png" alt="linkedIn">
+            </a>
+        </div>
+        <!--Separate div for copyright-->
+        <div id="copyright">
+            copyright - made by Jimmy Harb
+        </div>
+    </footer>
+</body>
+</html>
